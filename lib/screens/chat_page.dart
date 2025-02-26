@@ -73,13 +73,9 @@ class ChatPage extends StatelessWidget {
                     ],
                     color: Color(0xFFFFF3C2),
                     borderRadius: BorderRadius.circular(10)),
-                child: Column(
-                  children: [
-                    Text(
-                      'Messages and calls are end to end \n enscrypted. no one can read or \n listen to it.',
-                      textAlign: TextAlign.center,
-                    ),
-                  ],
+                child: Text(
+                  'Messages and calls are end to end \n enscrypted. no one can read or \n listen to it.',
+                  textAlign: TextAlign.center,
                 ),
               ),
               SizedBox(
@@ -155,25 +151,6 @@ class ChatPage extends StatelessWidget {
               )
             ],
           ),
-        )
-        // Row(
-
-        //   children: [
-        //     Icon(
-        //       Icons.emoji_emotions,
-        //       size: 40,
-        //     ),
-        //     Container(
-        //       decoration: BoxDecoration(
-        //           color: Colors.white, borderRadius: BorderRadius.circular(15)),
-        //       width: MediaQuery.of(context).size.width * 0.7,
-        //       child: TextFormField(
-        //         decoration: InputDecoration(
-        //             hintText: 'Message', border: InputBorder.none),
-        //       ),
-        //     )
-        //   ],
-        // )
-        );
+        ));
   }
 }
