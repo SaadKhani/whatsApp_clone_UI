@@ -1,3 +1,4 @@
+<img width="1376" alt="whatsAppUI_screenshot" src="https://github.com/user-attachments/assets/7cb50527-fceb-407b-89fe-bf951451ae87" />
 
 
 # watsapp_clone_ui
